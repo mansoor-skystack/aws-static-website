@@ -1,7 +1,5 @@
-function showTime() {
-	document.getElementById('currentTime').innerHTML = new Date().toUTCString();
-}
-showTime();
-setInterval(function () {
-	showTime();
-}, 1000);
+console.log("SkyStack website loaded successfully");
+
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("CI/CD deployment active");
+});
